@@ -1,2 +1,27 @@
-# Java-Challenge-Study
-자바 챌린지 스터디
+# 스터디 규칙
+1. 매주 스터디한 내용은 Readme.MD에 등록
+2. 매주 과제 출제, issue 탭에 등록
+(각 스터디 인원은 스터디날짜때 발표주제로 `과제한 내용` or `공유하고 싶은 내용`으로 제출. 제출방식은 논의)
+3. 발표자는 스터디날짜 때 추첨으로 뽑힘.
+
+# 스터디 일정
+
+* 1주차(08/20)
+  - 자바 챌린지 스터디를 만든 idea
+  - 취지 -> 서로 스터디할 수 있는 환경설정, 기술"공유" 세미나
+
+  - POJO -> OOP 형식의 유지보수가능하게 돕는 자바 클래스, 데이터 그릇(Entity, Dto, VO 등)
+    으로 활용, 우리 스터디에도 자바 프로그램의 in/out 흐름 파라미터로 사용!
+
+  - Setting 환경: https://github.com/mooh2jj/javaChallenageProg.git
+    - SpringBoot REST API로 Dto로 데이터값 POST방식(postman)으로 확인
+    (순수 자바 프로젝트로 진행해도 무관) 
+
+  - 자바 성적 산출 프로그램 예시
+    1) 비즈니스 로직 조건문 if 
+    2) 도메인 주도 패턴 - 데이터처리로직 -> 관련 Domain Dto에 메서드로 이동
+    3) stream API 로 데이터값 파싱
+
+  - 향후계획: java챌린지스터디 -> Spring(Boot) REST API를 다루는 spring챌린지스터디 계획
+
+
