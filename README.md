@@ -25,4 +25,22 @@
 
   - 향후계획: java챌린지스터디 -> Spring(Boot) REST API를 다루는 spring챌린지스터디 계획
 
+<br>
+
+* `2주차(8/27)`
+
+  - 빌더 패턴
+    - 점증적 생성자 패턴 vs 빌더패턴
+    - 빌더패턴 이슈 => `NoArgs, AllArgs의 문제` => NoArs와 Builder는 생성자에 넣는 방식으로 사용
+
+  - String vs StringBuilder, StringBuffer 
+    - 메모리 성능 차이 =>  "+=" vs "append()" 
+    - 불변객체 String => Constant pool(상수풀) 메모리에 할당.
+      - String 생성방식 ""(리터럴방식) vs new String(); (new 연산자 방식)
+    - StringBuffer vs StringBuilder  (멀티스레드 동기화 블록 o, x)
+
+  - String 메서드 
+    - equals()	// equals() vs "=="
+    - spilt() && join()
+    - replaceAll() => `정규표현식` => 활용범위가 넓음. 리눅스에서도 많이 사용
 
