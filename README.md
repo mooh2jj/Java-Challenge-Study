@@ -31,9 +31,9 @@
 
   - Builder 패턴
     - 점증적 생성자 패턴 vs 빌더패턴
-    - 빌더패턴 이슈 => `NoArgs, AllArgs의 문제` => AllArgsConstructors는 모든 필드에 대한 생성자 생성함. 
-      하지만 인스턴스 맴버변수 순서의 영향을 받아 컴파일 오류가 아닌 런타임 오류가 생겨 치명적인 오류임! 
-    - 결국에 NoArsConstrctors, 그리고 Builder는 생성자에 넣는 방식으로 사용
+    - 빌더패턴 이슈 => `NoArgs, AllArgs의 문제` => AllArgsConstructors는 
+      생성자로서 인스턴스 맴버변수 순서의 영향을 받아 컴파일 오류가 아닌 런타임 오류가 생겨 치명적인 오류임! 
+    - 결국에 NoArsConstrctors, 그리고 Builder가 생성자에 넣는 방식으로 사용
     - 참고) https://velog.io/@mooh2jj/빌더-패턴-왜-쓰는-거야
 
   - String vs StringBuilder, StringBuffer 
