@@ -27,7 +27,7 @@
 
 <br>
 
-* `2주차(8/27)`
+* `2주차(08/27)`
 
   - Builder 패턴
     - 점증적 생성자 패턴 vs 빌더패턴
@@ -46,4 +46,55 @@
     - equals()	// equals() vs "=="
     - spilt() && join()
     - replaceAll() => `정규표현식` => 활용범위가 넓음. 리눅스에서도 많이 사용
+
+<br>
+
+* `3주차(09/03)`
+
+  - `Optional`
+  : NullPointerException(NPE) 대응 자바 객체  
+
+    1) 생성
+    Optional.empty(), of(), ofnullable(), stream()
+
+    2) 접근
+    get(), orElse(), orElseGet(), orElseThrow(), ifPresent()
+
+
+  - `streamAPI` 
+
+    * 함수형 인터페이스 : 인터페이스 하나의 추상메서드 => 람다형식 
+      (인자) -> {반환} 
+    * 함수형 인터페이스 종류
+      - Function : (인자) -> {반환} 
+      - Supplyer : () -> {반환}
+      - Consumer : (인자) -> { }
+      - Predicate : boolean
+
+    * stream의 장점
+      for문을 예를 들어, 보기가 좋아  
+      메서드 => 뭐하나 선언적 프로그래밍
+
+    * 외부연산 vs 내부연산 : pure하게 관리한다. => "순수함수"
+
+    * lazy 연산 
+      : stream => 처음연산 + 중간연산 + 최종연산 
+      중간연산의 데이터 호출은 최종연산때까지 반환을 미룬다. 
+
+    * `불변성` 
+      : pure function 값의 상태 연산을 하는 도중에는 외부에서 변경을 할 수 없다. => "캡슐화" 와 같은 맥락 
+
+    * stream API 예제
+      1) 연산
+      2) 내부 데이터 파싱
+      3) List<Dto> -> Collect 표현
+
+    * 참고
+      - https://velog.io/@mooh2jj/자바-람다Lamda-그리고-함수프로그래밍방식
+      - https://velog.io/@mooh2jj/왜-함수형-프로그래밍인가
+
+  -  `StringUtils`
+    : StringUtils.hasText(str) => boolean 으로 
+    비즈니스 로직에서 가장 많이 받는 데이터 타입인 String의 null 체크에 많이 사용
+
 
