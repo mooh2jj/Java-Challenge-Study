@@ -28,6 +28,8 @@
     3) stream API 로 데이터값 파싱
 
   - 향후계획: java챌린지스터디 -> Spring(Boot) REST API를 다루는 spring챌린지스터디 계획
+  
+  - 과제 세팅 소스: https://github.com/mooh2jj/javaChallenageProg.git
 </div>
 </details>
 
