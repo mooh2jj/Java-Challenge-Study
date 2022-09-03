@@ -53,6 +53,11 @@
     - equals()	// equals() vs "=="
     - spilt() && join()
     - replaceAll() => `정규표현식` => 활용범위가 넓음. 리눅스에서도 많이 사용
+  
+  <br>
+  
+  - 과제 소스: https://github.com/mooh2jj/javaChallenageProg/commit/a61d43b10d25126afbfcda8d39de17c8a0f4fb79
+  - 강의 소스: https://github.com/mooh2jj/javaChallenageProg/commit/b12f5fdaf5000b6692acd5d00374c9fb96312f59
 </div>
 </details>
   
@@ -107,6 +112,11 @@
   -  `StringUtils`
     : StringUtils.hasText(str) => boolean 으로 
     비즈니스 로직에서 가장 많이 받는 데이터 타입인 String의 null 체크에 많이 사용
+  
+  <br>
+  
+  - 과제 소스: https://github.com/mooh2jj/javaChallenageProg/commit/7bdd7217b17b054eb16a889550ea9aec8ec3960f
+  - 강의 소스: https://github.com/mooh2jj/javaChallenageProg/commit/a13921b762dcd2a3caf2e8b1d8a420c99483da9e
 </div>
 </details>
 
