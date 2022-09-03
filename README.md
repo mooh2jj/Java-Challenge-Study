@@ -27,7 +27,8 @@
     3) stream API 로 데이터값 파싱
 
   - 향후계획: java챌린지스터디 -> Spring(Boot) REST API를 다루는 spring챌린지스터디 계획
-
+</div>
+</details>
 
 <br>
 
@@ -52,9 +53,10 @@
     - equals()	// equals() vs "=="
     - spilt() && join()
     - replaceAll() => `정규표현식` => 활용범위가 넓음. 리눅스에서도 많이 사용
-
+</div>
+</details>
+  
 <br>
-
 
 <details>
 <summary>3주차(09/03)</summary>
@@ -105,5 +107,6 @@
   -  `StringUtils`
     : StringUtils.hasText(str) => boolean 으로 
     비즈니스 로직에서 가장 많이 받는 데이터 타입인 String의 null 체크에 많이 사용
-
+</div>
+</details>
 
