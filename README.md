@@ -7,7 +7,10 @@
 
 # 스터디 일정
 
-* `1주차(08/20)`
+<details>
+<summary>1주차(08/20)</summary>
+<div markdown="1">
+
   - 자바 챌린지 스터디를 만든 idea 소개
   - 취지 -> 서로 스터디하면서 시너지를 낼 수 있는 환경설정, 기술 "공유" 세미나
 
@@ -25,9 +28,12 @@
 
   - 향후계획: java챌린지스터디 -> Spring(Boot) REST API를 다루는 spring챌린지스터디 계획
 
+
 <br>
 
-* `2주차(08/27)`
+<details>
+<summary>2주차(08/27)</summary>
+<div markdown="2">
 
   - Builder 패턴
     - 점증적 생성자 패턴 vs 빌더패턴
@@ -49,7 +55,10 @@
 
 <br>
 
-* `3주차(09/03)`
+
+<details>
+<summary>3주차(09/03)</summary>
+<div markdown="3">
 
   - `Optional`
   : NullPointerException(NPE) 대응 자바 객체  
