@@ -59,7 +59,7 @@
   
   <br>
   
-  - 과제 소스: https://github.com/mooh2jj/javaChallenageProg/commit/a61d43b10d25126afbfcda8d39de17c8a0f4fb79
+  - 1주차 과제 소스: https://github.com/mooh2jj/javaChallenageProg/commit/a61d43b10d25126afbfcda8d39de17c8a0f4fb79
   - 강의 소스: https://github.com/mooh2jj/javaChallenageProg/commit/b12f5fdaf5000b6692acd5d00374c9fb96312f59
 </div>
 </details>
@@ -118,7 +118,7 @@
   
   <br>
   
-  - 과제 소스: https://github.com/mooh2jj/javaChallenageProg/commit/7bdd7217b17b054eb16a889550ea9aec8ec3960f
+  - 2주차 과제 소스: https://github.com/mooh2jj/javaChallenageProg/commit/7bdd7217b17b054eb16a889550ea9aec8ec3960f
   - 강의 소스: https://github.com/mooh2jj/javaChallenageProg/commit/a13921b762dcd2a3caf2e8b1d8a420c99483da9e
 </div>
 </details>
