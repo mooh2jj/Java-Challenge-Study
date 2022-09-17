@@ -123,3 +123,41 @@
 </div>
 </details>
 
+<br>
+
+<details>
+<summary>4주차(09/17)</summary>
+<div markdown="3">
+
+  - `객체지향 정의`
+    : 유지보수, 최대한 다른 뭔가에 영향(side effect)을 최대한 줄이는 방향으로 코딩하는 방식
+
+    1) 절차지향 설계 방식과 비교
+    절차지향 : 한 데이터를 가지고 프로시저(함수)가 사용하는 방식, 코드를 짜면 짤수록 한 데이터를 가지고 연관된 프로시저(함수)가 많아진다. => 유지보수가 굉장히 어렵다. 
+    
+    2) 객체지향과 사실과 오해 - 객체지향을 접근할 때 알아두면 좋은 책
+    - 객체는 `책임`에 따른 `역할(추상화)`로 `협력`한다.
+    - 참고) https://velog.io/@mooh2jj/book리뷰-객체지향의-사실과-오해
+
+
+  - `SOLID 원칙` 
+    : 객체지향설계를 위한 흐름, 원칙
+    
+    1) SRP: Client에는 order 행위, Menu에는 choose 행위 등 클래스에 맞는 책임을 할당해준다.
+    2) OCP: Chef라는 추상화클래스(인터페이스)를 사용하여 chef를 구현한 클래스가 확장되어도 chef를 사용한 client에게는 변경이 닫혀있다.
+    3) LSP: Chef 객체를 생성할 때 chef를 구현한 하위클래스들로 치환해서 생성해도 문제가 없다.
+    4) ISP: Chef 인터페이스에는 최소한 메서드만 있다.
+    4) DIP: 상위객체인 Client가 Chef라는 추상화클래스(인터페이스)에 의존하여 구현클래스인 하위객체들이 Clinet에 의존하여 의존관계를 역전시킬 수 있다.
+    
+    * 참고) OrderDish 과제 https://github.com/mooh2jj/orderDish.git
+
+  - `디자인 패턴`
+    : SOLID 원칙을 기반으로 객체지향 설계를 위한 공식화된 패턴들
+    
+    * 종류 : 싱글톤패턴, 팩토리패턴, 전략패턴, 프록시패턴, 빌더패턴, 옵저버패턴, 방문자패턴 등등 
+  
+  <br>
+  
+  - 3주차 과제 소스(영권님 과제소스): https://github.com/choiyoungkwon12/javaChallengeStudy/commit/ec9db054587dffd2817ab888890816e528eee22c
+</div>
+</details>
