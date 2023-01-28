@@ -22,11 +22,10 @@
     * SpringBoot REST API로 Dto로 데이터값 POST방식(postman)으로 확인
   
   2) 로또 생성기 구현
+    * 로또 번호 갯수 input -> 랜덤 로또 번호 6자리 생성 output 프로그램 구현
 
   3) 자바 성적 산출 프로그램 구현
-    * 조건문 if, 반복문 for문 사용
-    * 관련 Domain Dto에 메서드로 이동
-    * Stream API 로 데이터값 파싱 활용
+    * 과목이름이 한글인 경우에 count, 평균을 산출해주세요. (정규표현식을 사용해주세요)
   ```
 </div>
 </details>
