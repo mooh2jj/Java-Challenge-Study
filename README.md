@@ -18,15 +18,24 @@
   * 스터디 취지, 방향, 구성 방식 설명
   * 과제
   ```
-  1) Setting 환경 순수 자바 프로그램 or REST API springBoot 
+  1) 사용 툴 설치및 이해하기 
+   * IntelliJ(얼티메이트 버전 추천-플러그인 사용 가능)
+   * MySQL, DB 접속 HediSQL or Dbeaver
+   * e2e 테스트용 postman
+   * git/github
+ 
+  2) 해당 레포지토리 fork & PR 해보기
+ 
+  3) Setting 환경 -> REST API springBoot 
     * SpringBoot REST API로 Dto로 데이터값 POST방식(postman)으로 확인
   
-  2) 로또 생성기 구현
+  4) 로또 생성기 구현
     * 로또 번호 갯수 input -> 랜덤 로또 번호 6자리 생성 output 프로그램 구현
 
-  3) 자바 성적 산출 프로그램 구현
+  챌린지) 자바 성적 산출 프로그램 구현
     * 과목이름이 한글인 경우에 count, 평균을 산출해주세요. (정규표현식을 사용해주세요)
   ```
+ * 환경셋팅 - [https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00](https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00)
 </div>
 </details>
 
