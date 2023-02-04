@@ -39,6 +39,29 @@
 </div>
 </details>
 
+<details>
+<summary>1week(2023/02/04)</summary>
+<div markdown="1">
+
+  * POJO -> OOP 형식의 유지보수가능하게 돕는 자바 클래스 
+    * 데이터 그릇(Entity, Dto, VO 등)으로 활용
+    * SpirngBoot의 in/output 흐름 어노테이션 파라미터로 활용
+    
+  * REST API로 Dto 필드 데이터값 POST방식(postman)으로 output 확인
+    * 순수 자바 프로젝트로 진행해도 무관
+    * ex) 자바 성적 산출 프로그램
+
+  * 비즈니스 로직 조건문 if, 반복문 for, while
+    * 도메인 주도 패턴 - 데이터처리로직 -> 관련 Domain Dto에 메서드로 이동
+    * Stream API로 데이터값 파싱
+    * ex) lottoGenerate 랜덤번호 산출
+ 
+ * 과제 - https://github.com/mooh2jj/Java-Challenge-Study/issues/2
+ 
+ * 정리 - https://www.notion.so/1week-f6fec789ea48479d976f4a37ae57cd56
+</div>
+</details>
+
 <br>
 
 
