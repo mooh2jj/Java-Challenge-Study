@@ -56,7 +56,29 @@
     * Stream API로 데이터값 파싱
     * ex) lottoGenerate 랜덤번호 산출
  
- * 과제 - https://github.com/mooh2jj/Java-Challenge-Study/issues/2
+ * 과제 
+ ```
+이벤트 `쿠폰` 을 사용하는 서비스 내
+데이터 파싱을 중점으로 만든 문제
+
+1. 쿠폰 이름으로 `한글` or `특수문자`가 들어있는 것을 `정규표현식`으로 찾기
+
+* ex) 한글이 들어있는 쿠폰 "ASDS개발자"
+* `정규표현식`으로 축출
+* 이런 쿠폰 이름이 있을시 `빌더패턴`을 사용해서 Output 해주세요.
+
+
+2. Dto(req/res)에 쿠폰에 대한 여러가지 필드들이 존재할 수 있습니다. 그중  시간필드, `상태값 status필드`도 존재합니다. 
+`현재`를 기준으로 `beginDt ~ endDt 이외 기간`에 쿠폰이라면 status Enum 상태가 `unable("사용불가")`하게 할 수 있는 로직을 만들어주세요.
+
+* beginDt : 이벤트쿠폰시작일 / endDt: 이벤트쿠폰마지막일
+* LocalDateTime 사용
+
+
+3. Optional, 함수형 인터페이스 학습
+4. 사용하고 있는 디자인 패턴 2개 이상만 공부해오기
+
+ ```
  
  * 정리 - https://www.notion.so/1week-f6fec789ea48479d976f4a37ae57cd56
 </div>
