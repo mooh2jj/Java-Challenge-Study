@@ -1,18 +1,19 @@
 package com.example.lottogenerator.api;
 
 import com.example.lottogenerator.vo.LottoVO;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.*;
 
-@Controller
+@RestController
 public class LottoAplication {
 
     @GetMapping("/lotto")
-    @ResponseBody
-    public List<LottoVO> lottoGenerater (int lotto_cnt){
+    public List<LottoVO> lottoGenerator (int lotto_cnt){
 
         List<LottoVO> lottoVOs = new ArrayList<>(lotto_cnt);
 

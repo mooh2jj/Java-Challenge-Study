@@ -5,17 +5,17 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-@Controller
+@RestController
 public class ScoreApplication {
 
-    @PostMapping("avg_calculate")
-    @ResponseBody
+    @PostMapping("/avg_calculate")
     public Map avgCalculate (@RequestBody ScoreVO param){
 
         Map result = new HashMap();
