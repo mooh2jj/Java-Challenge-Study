@@ -3,7 +3,6 @@ package com.java.challenge.restapi.controller;
 import com.java.challenge.restapi.entity.User;
 import com.java.challenge.restapi.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
