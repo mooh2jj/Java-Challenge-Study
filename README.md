@@ -84,6 +84,35 @@
 </div>
 </details>
 
+<details>
+<summary>2week(2023/02/11)</summary>
+<div markdown="1">
+
+  * 데이터 파싱 전 REST API layerd 아키텍쳐상 request → response 과정
+    
+  * 비즈니스로직 Dto- Entity 변환 과정
+
+  * 자바 8 기술 -> 함수형 프로그래밍 (람다, 함수형 인터페이스, Stream)
+  
+  * Optional 사용하는 이유 및 처리 메서드들
+  
+  * 디자인 패턴을 공부하는 이유
+ 
+ * 과제 
+ ```
+1) 자기만의 Stream 데이터파싱, Optional 처리 경험을 공유해주세요:)
+
+2) 리플렉션(proxy) 학습
+
+3) Exception 학습
+* checked Exception vs unchecked Exception
+* throw vs try catch
+ ```
+ 
+ * 정리 - https://www.notion.so/2week-1f2001b5518240e0bd44eac323ffdb30
+</div>
+</details>
+
 <br>
 
 
