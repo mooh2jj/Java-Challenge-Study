@@ -2,23 +2,23 @@ package com.java.challenge.restapi.controller;
 
 import com.java.challenge.restapi.entity.User;
 import com.java.challenge.restapi.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequiredArgsConstructor
 public class UserController {
 
-    @Autowired
-    private UserService service;
+    private final UserService service;
 
-    @PostMapping("/addUser")
+    @PostMapping("/user")
     public User addUser(@RequestBody User user){
         return service.saveUser(user);
     }
 
-    @PostMapping("/addUsers")
+    @PostMapping("/users")
     public List<User> addUsers(@RequestBody List<User> users){
         return service.saveUsers(users);
     }
@@ -36,12 +36,12 @@ public class UserController {
         return service.getUserByName(name);
     }
 
-    @PutMapping("/update")
+    @PutMapping("/user")
     public User updateUser(@RequestBody User user){
         return service.updateUser(user);
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/user/{id}")
     public String deleteUser(@PathVariable int id){
         return service.deleteUser(id);
     }
