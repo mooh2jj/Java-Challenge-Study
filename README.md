@@ -113,6 +113,32 @@
 </div>
 </details>
 
+<details>
+<summary>3week(2023/02/18)</summary>
+<div markdown="1">
+
+  * OOP & 디자인 패턴을 사용하는 이유 => "격리성", "추상화"
+    
+  * 스프링에서 쓰이는 디자인패턴
+
+  * 재사용 vs 격리성
+  
+  * Thrad-safe 하게 코딩하기 => "stateless", "immutable"
+  
+ 
+ * 과제 
+ ```
+1) ???
+
+2) 
+
+3) 
+ ```
+ 
+ * 정리 - https://www.notion.so/3week-e63d2fb6eb294eb19d3698bb1ec0fe14
+</div>
+</details>
+
 <br>
 
 
