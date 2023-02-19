@@ -117,9 +117,11 @@
 <summary>3week(2023/02/18)</summary>
 <div markdown="1">
 
+  * 과제 내용 => 리플렉션(프록시->AOP), exception의 예외처리(컴파일시 vs 런타임시)
+
   * OOP & 디자인 패턴을 사용하는 이유 => "격리성", "추상화"
     
-  * 스프링에서 쓰이는 디자인패턴
+  * 스프링에서 쓰이는 디자인패턴 => "싱글톤", "프록시", "팩토리 메서드", "전략" 등
 
   * 재사용 vs 격리성
   
@@ -128,11 +130,13 @@
  
  * 과제 
  ```
-1) ???
+1) StringBuffer vs StringBuilder 비교해보기
 
-2) 
+2) final 키워드 학습
 
-3) 
+3) 무한참조란? 무한참조 일어나는 이유 학습
+
+4) equals(), hashCode() 재정의하는 이유
  ```
  
  * 정리 - https://www.notion.so/3week-e63d2fb6eb294eb19d3698bb1ec0fe14
