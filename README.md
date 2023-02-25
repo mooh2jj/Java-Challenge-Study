@@ -143,6 +143,32 @@
 </div>
 </details>
 
+<details>
+<summary>4week(2023/02/25)</summary>
+<div markdown="1">
+
+  * 과제 내용 => StringBuilder vs StringBuffer 차이, String의 불변객체 이야기
+
+  * OOP & 디자인 패턴을 사용하는 이유 다시 상기
+    
+  * 무한참조 대표적인 예시
+
+  * final 을 사용하는 이유
+  
+  * 스터디 후 취업을 하는 전략들 
+  
+ 
+ * 과제 
+ ```
+지금까지 스터디한 내용 정리해보기
+
+수고 하셨습니다 :)
+ ```
+ 
+ * 정리 - https://www.notion.so/4week-61937e3d165e46a586af1ebbb25b17fd
+</div>
+</details>
+
 <br>
 
 
