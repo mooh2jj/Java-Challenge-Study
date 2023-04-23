@@ -89,13 +89,9 @@
 <div markdown="1">
 
   * 데이터 파싱 전 REST API layerd 아키텍쳐상 request → response 과정
-    
   * 비즈니스로직 Dto- Entity 변환 과정
-
   * 자바 8 기술 -> 함수형 프로그래밍 (람다, 함수형 인터페이스, Stream)
-  
   * Optional 사용하는 이유 및 처리 메서드들
-  
   * 디자인 패턴을 공부하는 이유
  
  * 과제 
@@ -109,7 +105,6 @@
 * throw vs try catch
  ```
  
- * 정리 - https://www.notion.so/2week-1f2001b5518240e0bd44eac323ffdb30
 </div>
 </details>
 
@@ -118,28 +113,19 @@
 <div markdown="1">
 
   * 과제 내용 => 리플렉션(프록시->AOP), exception의 예외처리(컴파일시 vs 런타임시)
-
   * OOP & 디자인 패턴을 사용하는 이유 => "격리성", "추상화"
-    
   * 스프링에서 쓰이는 디자인패턴 => "싱글톤", "프록시", "팩토리 메서드", "전략" 등
-
   * 재사용 vs 격리성
-  
   * Thrad-safe 하게 코딩하기 => "stateless", "immutable"
-  
  
  * 과제 
  ```
 1) StringBuffer vs StringBuilder 비교해보기
-
 2) final 키워드 학습
-
 3) 무한참조란? 무한참조 일어나는 이유 학습
-
 4) equals(), hashCode() 재정의하는 이유
  ```
  
- * 정리 - https://www.notion.so/3week-e63d2fb6eb294eb19d3698bb1ec0fe14
 </div>
 </details>
 
@@ -148,15 +134,10 @@
 <div markdown="1">
 
   * 과제 내용 => StringBuilder vs StringBuffer 차이, String의 불변객체 이야기
-
   * OOP & 디자인 패턴을 사용하는 이유 다시 상기
-    
   * 무한참조 대표적인 예시
-
   * final 을 사용하는 이유
-  
-  * 스터디 후 취업을 하는 전략들 
-  
+  * 스터디 후 취업을 하는 전략들 생각정리
  
  * 과제 
  ```
@@ -164,8 +145,6 @@
 
 수고 하셨습니다 :)
  ```
- 
- * 정리 - https://www.notion.so/4week-61937e3d165e46a586af1ebbb25b17fd
 </div>
 </details>
 
