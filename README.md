@@ -37,6 +37,9 @@
 챌린지) 자바 성적 산출 프로그램 구현
   * 과목이름이 한글인 경우에 count, 평균을 산출해주세요. (정규표현식을 사용해주세요)
 ```
+* 환경셋팅 - https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
+* 노션정리 - https://www.notion.so/1week-f6fec789ea48479d976f4a37ae57cd56
+
 </div>
 </details>
 
