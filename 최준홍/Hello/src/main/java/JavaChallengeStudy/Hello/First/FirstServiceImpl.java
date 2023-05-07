@@ -54,16 +54,19 @@ public class FirstServiceImpl implements FirstService {
     @Override
     public double calcGrade(List<GradeDto> grades) {
         String regExp = "^[가-힣\\s]*$";
+        //총 과목수.
         int subjectCount =0;
+        //총 과목 성적 합.
         double sumScore=0;
         for(GradeDto grade : grades){
+            //한글이 들어가지 않은 과목.
             if(!grade.getSubjectName().matches(regExp)){
                 break;
             }
             sumScore += grade.getScore();
             subjectCount ++;
         }
-
+        //평균 구하기.
         return sumScore/subjectCount;
     }
 }

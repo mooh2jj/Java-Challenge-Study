@@ -57,10 +57,11 @@ class HelloApplicationTests {
 	public  void calcGradeTest(){
 		//given
 		List<GradeDto> grades = new ArrayList<>();
-		grades.add(new GradeDto("한국사",4.5));
-		grades.add(new GradeDto("국어",4.5));
-		grades.add(new GradeDto( "English",3.0));
-		grades.add(new GradeDto(" ",1.0));
+		grades.add(GradeDto.builder().subjectName("한국사").score(4.5).build());
+		grades.add(GradeDto.builder().subjectName("국어").score(4.5).build());
+		grades.add(GradeDto.builder().subjectName("English").score(1).build());
+		grades.add(GradeDto.builder().subjectName(" ").score(0).build());
+		grades.add(GradeDto.builder().subjectName("Test").score(3).build());
 
 		//when
 		double result = firstService.calcGrade(grades);

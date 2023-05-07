@@ -7,29 +7,29 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-//@RestController
+@RestController
 public class FirstController {
 
 
     private FirstService firstService;
 
-    public FirstController(FirstService firstService){
+    public FirstController(FirstService firstService) {
         this.firstService = new FirstServiceImpl();
     }
 
     @PostMapping("deduplication-name")
-    public List<String> setName(@RequestBody ArrayList<String> nameList){
+    public List<String> setName(@RequestBody ArrayList<String> nameList) {
         return firstService.deduplicationName(nameList);
     }
 
     @GetMapping("convert-hp")
-    public String convertHp(@RequestParam String hp){
+    public String convertHp(@RequestParam String hp) {
         return firstService.convertHp(hp);
     }
 
 
     @PostMapping("member")
-    public MemberDto member(@RequestBody MemberDto memberDto){
+    public MemberDto member(@RequestBody MemberDto memberDto) {
         MemberDto request = MemberDto.builder()
                 .Name(memberDto.getName())
                 .HpNumber(memberDto.getHpNumber())
@@ -39,8 +39,8 @@ public class FirstController {
     }
 
     @PostMapping("calc-grade")
-    public double calcGrade(@RequestBody List<GradeDto> grade){
-    return firstService.calcGrade(grade);
+    public double calcGrade(@RequestBody List<GradeDto> grade) {
+        return firstService.calcGrade(grade);
     }
 
 }
