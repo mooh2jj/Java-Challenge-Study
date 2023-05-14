@@ -32,7 +32,7 @@
   * SpringBoot REST API로 Dto로 데이터값 POST방식(postman)으로 확인
 
 4) 로또 생성기 구현
-  * 로또 번호 갯수 input -> 랜덤 로또 번호 6자리 생성 output 프로그램 구현
+  * 로또 번호 갯수 input -> 랜덤 로또 번호 생성 output 프로그램 구현
 
 챌린지) 자바 성적 산출 프로그램 구현
   * 과목이름이 한글인 경우에 count, 평균을 산출해주세요. (정규표현식을 사용해주세요)
@@ -42,6 +42,26 @@
 
 </div>
 </details>
+
+<details>
+<summary>2주차(05/13)</summary>
+<div markdown="1">
+
+* 함수형 프로그래밍 (람다, 함수형 인터페이스, Stream) 정리
+* 과제 발표
+* 과제 내용 확장(JPA Entity로 데이터 DB에서 관리 & 기존 데이터 반복로직 -> stream 변환)
+* 과제 
+```
+1) 스터디 실습 완료(JPA Entity로 데이터 DB에서 관리 & 기존 데이터 반복로직 -> stream 변환)
+2) 디자인패턴 정리 -> 스프링의 디자인패턴 구성 찾기
+3) 리플랙션, proxy 란?
+4) 예외처리 Exception (checked Exception, unchecked Exception) 처리 전략 정리
+```
+* 노션정리 - https://www.notion.so/2week-1f2001b5518240e0bd44eac323ffdb30
+
+</div>
+</details>
+
 
 <br>
 
