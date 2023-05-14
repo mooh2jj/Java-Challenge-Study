@@ -3,10 +3,8 @@ package JavaChallengeStudy.Hello.First;
 import JavaChallengeStudy.Hello.First.dto.GradeDto;
 import JavaChallengeStudy.Hello.First.dto.MemberDto;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
+import java.util.stream.Collectors;
 
 //@ToString
 public class FirstServiceImpl implements FirstService {
@@ -35,7 +33,6 @@ public class FirstServiceImpl implements FirstService {
         }
 
         Random lotto = new Random();
-
         List<Integer> lottoList = new ArrayList<Integer>();
         while (lottoList.size() < 6) {
             //숫자뽑기
@@ -53,17 +50,37 @@ public class FirstServiceImpl implements FirstService {
 
     @Override
     public double calcGrade(List<GradeDto> grades) {
-        String regExp = "^[가-힣\\s]*$";
-        int subjectCount =0;
-        double sumScore=0;
-        for(GradeDto grade : grades){
-            if(!grade.getSubjectName().matches(regExp)){
-                break;
-            }
-            sumScore += grade.getScore();
-            subjectCount ++;
-        }
+        List<Double> koreanScoreList = grades.stream().
+                filter((grade)-> KoreanRegExp(grade.getSubjectName()))
+                .map(GradeDto::getScore)
+                .collect(Collectors.toList());
+        int subjectCount = koreanScoreList.size();
+        return koreanScoreList.stream().mapToDouble(i->i).sum() / koreanScoreList.size();
 
-        return sumScore/subjectCount;
+//        이전코드
+//        int subjectCount =0;
+//        //총 과목 성적 합.
+//        double sumScore=0;
+//        for(GradeDto grade : grades){
+//            //한글이 들어가지 않은 과목.
+//            if(!grade.getSubjectName().matches(regExp)){
+//                break;
+//            }
+//            sumScore += grade.getScore();
+//            subjectCount ++;
+//        }
+//        //평균 구하기.
+//        return sumScore/subjectCount;
+    }
+
+    private boolean KoreanRegExp(String subjectName){
+        return subjectName.matches("^[가-힣\\s]*$");
+
+        //이전 코드
+        //        String regExp = "^[가-힣\\s]*$";
+        //        if(!subjectName.matches(regExp)){
+//            return false;
+//        }
+//        return true;
     }
 }
