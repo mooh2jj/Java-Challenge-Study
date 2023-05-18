@@ -117,3 +117,15 @@ public class TestController {
 }
 
 ```
+
+---
+
+###  ✏️ 2주차
+- **진행사항**
+<br> 1. 함수형 프로그래밍 (Lamda, 함수형 인터페이스, Stream) 정리 &nbsp; 2. 1주차 과제 JPA Entity로 데이터 DB관리 및 반복로직 stream 변환
+
+- **과제**
+<br> 1. 1주차 과제 JPA Entity로 데이터 DB관리 및 반복로직 stream 변환 실습 완료하기
+<br> 2. 디자인 패턴 정리  -> https://velog.io/@minbo2002/spring-design-pattern
+<br> 3. Reflection, Proxy 정리 -> https://velog.io/@minbo2002/Reflection-Proxy
+<br> 4. 예외처리 Exception(Checked Exception, Unchecked Exception) 정리 -> https://velog.io/@minbo2002/CheckedException-UncheckedException
