@@ -1,13 +1,25 @@
 package JavaChallengeStudy.Hello.First;
 
+import JavaChallengeStudy.Hello.First.Entity.Member;
 import JavaChallengeStudy.Hello.First.dto.GradeDto;
 import JavaChallengeStudy.Hello.First.dto.MemberDto;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
+//@Autowired
 //@ToString
+@Component
 public class FirstServiceImpl implements FirstService {
+
+    private FirstRepository firstRepository;
+
+    @Autowired
+    public FirstServiceImpl( FirstRepository firstRepository){
+        this.firstRepository = firstRepository;
+    }
     @Override
     public List<String> deduplicationName(List<String> nameList) {
         //HashSet은 List타입의 인자값을 받을 수 있는것 같다.
@@ -22,30 +34,42 @@ public class FirstServiceImpl implements FirstService {
 
     @Override
     public MemberDto addMember(MemberDto memberDto) {
+
+        Member memberEntity = memberDto.
+        firstRepository.save(memberDto);
         return null;
     }
+//
+//    // 스트림 적용 이전 코드
+//    @Override
+//    public List<Integer> lottoGenerator(int maxCount) {
+//        if(maxCount<6){
+//            //6보다 작은수가 오면 던져버린다.
+//            return null;
+//        }
+//        Random lotto = new Random();
+//        List<Integer> lottoList = new ArrayList<Integer>();
+//        while (lottoList.size() < 6) {
+//            //숫자뽑기
+////            int tempNumber=(int)(Math.random()*45 +1);
+//            int tempNumber = lotto.nextInt(maxCount) + 1; //1~maxCount
+//            //중복체크
+//            if (!lottoList.contains(tempNumber)) {
+//                //번호 추가
+//                lottoList.add(tempNumber);
+//            }
+//        }
+//        return lottoList;
+//    }
 
     @Override
     public List<Integer> lottoGenerator(int maxCount) {
-        if(maxCount<6){
-            //6보다 작은수가 오면 던져버린다.
-            return null;
-        }
-
-        Random lotto = new Random();
-        List<Integer> lottoList = new ArrayList<Integer>();
-        while (lottoList.size() < 6) {
-            //숫자뽑기
-//            int tempNumber=(int)(Math.random()*45 +1);
-            int tempNumber = lotto.nextInt(maxCount) + 1; //1~maxCount
-            //중복체크
-            if (!lottoList.contains(tempNumber)) {
-                //번호 추가
-                lottoList.add(tempNumber);
-            }
-        }
-
-        return lottoList;
+        if(maxCount <6) return null; // 최소 자릿수 유효성검사. 더 좋방법이 있나? dto에서 하는게 더 좋나?
+        return new Random().ints(1,maxCount+1)
+                .distinct()  //중복제거 될때까지 반복.
+                .limit(6) //리미티드 숫자만큼 안따라오면 다시 실행한다.
+                .boxed()
+                .collect(Collectors.toList());
     }
 
     @Override
