@@ -62,6 +62,22 @@
 </div>
 </details>
 
+<details>
+<summary>3주차(05/20)</summary>
+<div markdown="1">
+
+* 미션 발표 및 코드 리뷰
+* OOP -> SOLID 원칙 -> 디자인 패턴 -> 스프링에서 쓰이는 디자인패턴 위주로 설명
+* SOLID -> orderDish
+* 미션 
+```
+1) 리팩토링 -> orderDish
+2) 오늘 노션 정리한 키워드들 검색하고 정리!
+```
+* 노션정리 - https://rain-tank-b79.notion.site/3week-e63d2fb6eb294eb19d3698bb1ec0fe14
+
+</div>
+</details>
 
 <br>
 
