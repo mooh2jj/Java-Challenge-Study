@@ -30,12 +30,12 @@ public class FirstController {
 
     @PostMapping("member")
     public MemberDto member(@RequestBody MemberDto memberDto) {
-        MemberDto request = MemberDto.builder()
-                .Name(memberDto.getName())
-                .HpNumber(memberDto.getHpNumber())
-                .build();
+//        MemberDto request = MemberDto.builder()
+//                .Name(memberDto.getName())
+//                .HpNumber(memberDto.getHpNumber())
+//                .build();
 
-        return firstService.addMember(request);
+        return firstService.addMember(memberDto);
     }
 
     @PostMapping("calc-grade")

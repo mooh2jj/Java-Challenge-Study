@@ -11,7 +11,7 @@ import java.util.*;
 
 import static org.assertj.core.api.Assertions.*;
 
-@SpringBootTest
+//@SpringBootTest
 class HelloApplicationTests {
 
 	private FirstService firstService = new FirstServiceImpl();
@@ -43,7 +43,7 @@ class HelloApplicationTests {
 	@Test
 	public void lottoGeneratorTest() {
 		//given
-		int lottoCount = 6;
+		int lottoCount = 4;
 
 		//when
 		List<Integer> result = firstService.lottoGenerator(lottoCount);
