@@ -139,7 +139,7 @@ public class TestController {
 <br> 3. SOLID 원칙에 기반한 프로그램 리팩토링
 
 - **과제**
-<br> 1. 노션에 정리된 키워드 블로그 정리
+<br> 1. 노션에 정리된 키워드 블로그 정리 -> SOLID 원칙(https://velog.io/@minbo2002/SOLID-5principles)
 <br> 2. SOLID 원칙에 기반한 프로그램 리팩토링 완료하기
 ```java
 import java.util.List;
