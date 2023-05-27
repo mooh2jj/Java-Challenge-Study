@@ -79,6 +79,25 @@
 </div>
 </details>
 
+<details>
+<summary>4주차(05/27)</summary>
+<div markdown="1">
+
+* 리팩토링 Thread 재사용 => Pool(Static), 격리성 => stateless, immutable 전략 간략히 설명
+* equalsHashCode 로 객체 비교 방식
+* 실습1) Date vs LocalDate(Time) 필드로 filter 리스트 조회 api  
+* 실습2) Entity 등록 api - 등록 Dto 내 List<String> 필드로 tag를 String join해서 ","를 기준으로 DB필드에 등록하기 
+* 미션 
+```
+지금까지 해왔던 실습과 스터디한 내용 정리
+
+모두 수고하셨습니다! 👍
+```
+* 노션정리 - https://rain-tank-b79.notion.site/4week-61937e3d165e46a586af1ebbb25b17fd
+
+</div>
+</details>
+
 <br>
 
 
