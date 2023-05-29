@@ -2,12 +2,11 @@ package JavaChallengeStudy.Hello.First.dto;
 
 
 import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 
-@Builder
-@Getter
+@Data // data는 get, set, tostring, EqualsAndHashCode, RequiredArgsConstructor
 public class MemberDto {
-    private String Name;
-    private String HpNumber;
-
+    private String name;
+    private String hpNumber;
 }

@@ -32,13 +32,68 @@
   * SpringBoot REST API로 Dto로 데이터값 POST방식(postman)으로 확인
 
 4) 로또 생성기 구현
-  * 로또 번호 갯수 input -> 랜덤 로또 번호 6자리 생성 output 프로그램 구현
+  * 로또 번호 갯수 input -> 랜덤 로또 번호 생성 output 프로그램 구현
 
 챌린지) 자바 성적 산출 프로그램 구현
   * 과목이름이 한글인 경우에 count, 평균을 산출해주세요. (정규표현식을 사용해주세요)
 ```
 * 환경셋팅 - https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
 * 노션정리 - https://www.notion.so/1week-f6fec789ea48479d976f4a37ae57cd56
+
+</div>
+</details>
+
+<details>
+<summary>2주차(05/13)</summary>
+<div markdown="1">
+
+* 함수형 프로그래밍 (람다, 함수형 인터페이스, Stream) 정리
+* 과제 발표
+* 과제 내용 확장(JPA Entity로 데이터 DB에서 관리 & 기존 데이터 반복로직 -> stream 변환)
+* 과제 
+```
+1) 스터디 실습 완료(JPA Entity로 데이터 DB에서 관리 & 기존 데이터 반복로직 -> stream 변환)
+2) 디자인패턴 정리 -> 스프링의 디자인패턴 구성 찾기
+3) 리플랙션, proxy 란?
+4) 예외처리 Exception (checked Exception, unchecked Exception) 처리 전략 정리
+```
+* 노션정리 - https://www.notion.so/2week-1f2001b5518240e0bd44eac323ffdb30
+
+</div>
+</details>
+
+<details>
+<summary>3주차(05/20)</summary>
+<div markdown="1">
+
+* 미션 발표 및 코드 리뷰
+* OOP -> SOLID 원칙 -> 디자인 패턴 -> 스프링에서 쓰이는 디자인패턴 위주로 설명
+* SOLID -> orderDish
+* 미션 
+```
+1) 리팩토링 -> orderDish
+2) 오늘 노션 정리한 키워드들 검색하고 정리!
+```
+* 노션정리 - https://rain-tank-b79.notion.site/3week-e63d2fb6eb294eb19d3698bb1ec0fe14
+
+</div>
+</details>
+
+<details>
+<summary>4주차(05/27)</summary>
+<div markdown="1">
+
+* 리팩토링 Thread 재사용 => Pool(Static), 격리성 => stateless, immutable 전략 간략히 설명
+* equalsHashCode 로 객체 비교 방식
+* 실습1) Date vs LocalDate(Time) 필드로 filter 리스트 조회 api  
+* 실습2) Entity 등록 api - 등록 Dto 내 List<String> 필드로 tag를 String join해서 ","를 기준으로 DB필드에 등록하기 
+* 미션 
+```
+지금까지 해왔던 실습과 스터디한 내용 정리
+
+모두 수고하셨습니다! 👍
+```
+* 노션정리 - https://rain-tank-b79.notion.site/4week-61937e3d165e46a586af1ebbb25b17fd
 
 </div>
 </details>
