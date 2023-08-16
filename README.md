@@ -57,7 +57,6 @@
 3) 리플랙션, proxy 란?
 4) 예외처리 Exception (checked Exception, unchecked Exception) 처리 전략 정리
 ```
-* 노션정리 - https://www.notion.so/2week-1f2001b5518240e0bd44eac323ffdb30
 
 </div>
 </details>
@@ -74,7 +73,6 @@
 1) 리팩토링 -> orderDish
 2) 오늘 노션 정리한 키워드들 검색하고 정리!
 ```
-* 노션정리 - https://rain-tank-b79.notion.site/3week-e63d2fb6eb294eb19d3698bb1ec0fe14
 
 </div>
 </details>
@@ -93,7 +91,6 @@
 
 모두 수고하셨습니다! 👍
 ```
-* 노션정리 - https://rain-tank-b79.notion.site/4week-61937e3d165e46a586af1ebbb25b17fd
 
 </div>
 </details>
